@@ -29,16 +29,6 @@ Designed for flexible grid layouts, reusable components, and modern web aestheti
 
 ##  Installation & Setup
 
-BuildaBox/
- ┣  src/
- ┃ ┣  components/
- ┃ ┣  assets/
- ┃ ┣  App.jsx
- ┃ ┗  main.jsx
- ┣  package.json
- ┣  vite.config.js
- ┗  README.md
-
 
 ```bash
 # Clone the repository
