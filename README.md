@@ -1,21 +1,21 @@
-# 🧱 BuildaBox
+#  BuildaBox
 
 A modern, responsive, and customizable **React + Vite** UI project built with **SCSS**.  
 Designed for flexible grid layouts, reusable components, and modern web aesthetics.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ⚡ **Vite + React** for ultra-fast development  
-- 🎨 **SCSS Modules** for clean, scalable styling  
-- 🧩 **Reusable UI Components**  
-- 📱 Fully **responsive** and mobile-friendly  
-- 🧠 Easy to customize for any business or portfolio  
+-  **Vite and React** for ultra-fast development  
+-  **SCSS Modules** for clean, scalable styling  
+-  **Reusable UI Components**  
+-  Fully **responsive** and mobile-friendly  
+-  Easy to customize for any business or portfolio  
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 |      Category  |    Technology     |
 |----------------|-------------------|
@@ -27,7 +27,18 @@ Designed for flexible grid layouts, reusable components, and modern web aestheti
 
 ---
 
-## 🧰 Installation & Setup
+##  Installation & Setup
+
+BuildaBox/
+ ┣  src/
+ ┃ ┣  components/
+ ┃ ┣  assets/
+ ┃ ┣  App.jsx
+ ┃ ┗  main.jsx
+ ┣  package.json
+ ┣  vite.config.js
+ ┗  README.md
+
 
 ```bash
 # Clone the repository
@@ -44,15 +55,4 @@ npm run dev
 
 ---
 
-BuildaBox/
- ┣ 📁 src/
- ┃ ┣ 📁 components/
- ┃ ┣ 📁 assets/
- ┃ ┣ 📄 App.jsx
- ┃ ┗ 📄 main.jsx
- ┣ 📄 package.json
- ┣ 📄 vite.config.js
- ┗ 📄 README.md
-
- 
 
