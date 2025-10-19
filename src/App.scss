@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+  background-color: #ff67251a;
+  padding: 100px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-head {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 50px;
+}
+
+.container-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.1;
+  color: #000;
+}
+
+.container-para {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #000000cc;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(280px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  gap: 20px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  align-items: start;
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.box-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box-title {
+  font-weight: 700;
+  font-size: 22px;
+  color: #050507;
+}
+
+.box-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #050507;
+  max-width: 210px;
+  opacity: 0.9;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  .container-title {
+    font-size: 32px;
+  }
+
+  .container-para {
+    font-size: 14px;
+  }
+
+  .box {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
