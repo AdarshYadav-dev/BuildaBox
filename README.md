@@ -1,11 +1,11 @@
 #  BuildaBox
 
 A modern, responsive, and customizable **React + Vite** UI project built with **SCSS**.  
-Designed for flexible grid layouts, reusable components, and modern web aesthetics.
+Designed for flexible grid layouts, reusable components, and modern web aesthetics..
 
 ---
 
-## Features
+## Features.
 
 -  **Vite and React** for ultra-fast development  
 -  **SCSS Modules** for clean, scalable styling  
